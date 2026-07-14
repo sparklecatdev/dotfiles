@@ -1,0 +1,26 @@
+[Unit]
+Description=Create VPN network namespace
+After=network-online.target
+Wants=network-online.target
+Before=mullvad-vpnns.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+
+ExecStart=/bin/bash -c 'ip netns list | grep -q "^vpn" || ip netns add vpn'
+ExecStart=/bin/bash -c 'ip link show veth-host >/dev/null 2>&1 || ip link add veth-host type veth peer name veth-vpn'
+ExecStart=/bin/bash -c 'ip link set veth-vpn netns vpn 2>/dev/null || true'
+ExecStart=/bin/bash -c 'ip addr show veth-host | grep -q "10.200.1.1/24" || ip addr add 10.200.1.1/24 dev veth-host'
+ExecStart=/usr/bin/ip link set veth-host up
+ExecStart=/bin/bash -c 'ip netns exec vpn ip addr show veth-vpn | grep -q "10.200.1.2/24" || ip netns exec vpn ip addr add 10.200.1.2/24 dev veth-vpn'
+ExecStart=/usr/bin/ip netns exec vpn ip link set veth-vpn up
+ExecStart=/usr/bin/ip netns exec vpn ip link set lo up
+ExecStart=/bin/bash -c 'ip netns exec vpn ip route replace default via 10.200.1.1'
+ExecStart=/usr/sbin/sysctl -w net.ipv4.ip_forward=1
+ExecStart=/bin/bash -c 'iptables -t nat -C POSTROUTING -s 10.200.1.0/24 -o eno1 -j MASQUERADE || iptables -t nat -A POSTROUTING -s 10.200.1.0/24 -o eno1 -j MASQUERADE'
+ExecStart=/bin/bash -c 'iptables -C FORWARD -i veth-host -j ACCEPT || iptables -A FORWARD -i veth-host -j ACCEPT'
+ExecStart=/bin/bash -c 'iptables -C FORWARD -o veth-host -j ACCEPT || iptables -A FORWARD -o veth-host -j ACCEPT'
+
+[Install]
+WantedBy=multi-user.target

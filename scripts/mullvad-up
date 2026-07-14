@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SERVER=$(cat /run/mullvad/server)
+SRC="/etc/wireguard/${SERVER}.conf"
+TMP="/run/wireguard/current-mullvad.conf"
+
+# remove old tunnel if it exists
+wg-quick down "$TMP" 2>/dev/null || true
+
+# create config without DNS
+sed '/^DNS[[:space:]]*=/s/^/#/' "$SRC" > "$TMP"
+
+chmod 600 "$TMP"
+
+wg-quick up "$TMP"

@@ -1,0 +1,12 @@
+# secrets
+*.conf
+*.key
+*.pem
+
+# caches
+.cache/
+.local/share/
+node_modules/
+
+# private configs
+wireguard/

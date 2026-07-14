@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "$1" | sudo tee /run/mullvad/server >/dev/null
+
+sudo systemctl restart mullvad-vpnns
+
+if [ $? -eq 0 ]; then
+    echo "Switched to $1"
+else
+    echo "Failed to switch to $1"
+fi
