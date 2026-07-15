@@ -28,14 +28,11 @@ sudo install -Dm644 \
 
 sudo systemctl daemon-reload
 
-sudo systemctl enable mullvad-vpnns-setup.service
-sudo systemctl enable mullvad-vpnns.service
+sudo systemctl enable --now mullvad-vpnns-setup.service
+sudo systemctl enable --now mullvad-vpnns.service
 
 echo
 echo "Done!"
 echo
 echo "Choose a server:"
 echo "  vpn-server us-atl-wg-407"
-echo
-echo "Then start the VPN:"
-echo "  sudo systemctl start mullvad-vpnns.service"
