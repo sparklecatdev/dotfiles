@@ -1,24 +1,41 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -e
+set -euo pipefail
 
-DOTFILES="$HOME/dotfiles"
+DOTFILES="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "Installing dotfiles..."
 
 # User scripts
 mkdir -p "$HOME/.local/bin"
 
-ln -sf "$DOTFILES/bin/vpn-server" "$HOME/.local/bin/vpn-server"
-ln -sf "$DOTFILES/bin/vpn-servers" "$HOME/.local/bin/vpn-servers"
+install -m755 "$DOTFILES/bin/vpn-server" \
+    "$HOME/.local/bin/vpn-server"
 
 # Root scripts
-sudo cp "$DOTFILES/scripts/mullvad-up" /usr/local/bin/mullvad-up
-sudo chmod +x /usr/local/bin/mullvad-up
+sudo install -Dm755 \
+    "$DOTFILES/scripts/mullvad-up" \
+    /usr/local/bin/mullvad-up
 
 # Systemd services
-sudo cp "$DOTFILES/systemd/"*.service /etc/systemd/system/
+sudo install -Dm644 \
+    "$DOTFILES/systemd/mullvad-vpnns-setup.service" \
+    /etc/systemd/system/mullvad-vpnns-setup.service
+
+sudo install -Dm644 \
+    "$DOTFILES/systemd/mullvad-vpnns.service" \
+    /etc/systemd/system/mullvad-vpnns.service
 
 sudo systemctl daemon-reload
 
-echo "Done."
+sudo systemctl enable mullvad-vpnns-setup.service
+sudo systemctl enable mullvad-vpnns.service
+
+echo
+echo "Done!"
+echo
+echo "Choose a server:"
+echo "  vpn-server us-atl-wg-407"
+echo
+echo "Then start the VPN:"
+echo "  sudo systemctl start mullvad-vpnns.service"
