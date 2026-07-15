@@ -236,3 +236,4 @@ echo "Sync complete!"
 echo
 echo "Review changes:"
 echo "  git status"
+echo "  git diff --stat"
