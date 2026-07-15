@@ -214,18 +214,26 @@ fi
 # SDDM
 ########################################
 
-if [[ -d "$DOTFILES/sddm" ]]; then
+if [[ -f "$DOTFILES/sddm/sddm.conf" ]]; then
+    sudo install -Dm644 \
+        "$DOTFILES/sddm/sddm.conf" \
+        /etc/sddm.conf
+fi
+
+if [[ -d "$DOTFILES/sddm/sddm.conf.d" ]]; then
     sudo mkdir -p /etc/sddm.conf.d
-    sudo cp -a "$DOTFILES/sddm/." /etc/sddm.conf.d/
+    sudo cp -a \
+        "$DOTFILES/sddm/sddm.conf.d/." \
+        /etc/sddm.conf.d/
 fi
 
 ########################################
 # Plymouth
 ########################################
 
-if [[ -d "$DOTFILES/plymouth" ]]; then
+if [[ -d "$DOTFILES/plymouth/etc" ]]; then
     sudo mkdir -p /etc/plymouth
-    sudo cp -a "$DOTFILES/plymouth/." /etc/plymouth/
+    sudo cp -a "$DOTFILES/plymouth/etc/." /etc/plymouth/
 fi
 
 ########################################

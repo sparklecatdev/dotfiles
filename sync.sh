@@ -172,13 +172,25 @@ copy_file \
 # SDDM
 ########################################
 
-copy_dir "/etc/sddm.conf.d" "$DOTFILES/sddm"
+mkdir -p "$DOTFILES/sddm"
+
+copy_file \
+    "/etc/sddm.conf" \
+    "$DOTFILES/sddm/sddm.conf"
+
+copy_dir \
+    "/etc/sddm.conf.d" \
+    "$DOTFILES/sddm/sddm.conf.d"
 
 ########################################
 # Plymouth
 ########################################
 
-copy_dir "/etc/plymouth" "$DOTFILES/plymouth"
+mkdir -p "$DOTFILES/plymouth"
+
+copy_dir \
+    "/etc/plymouth" \
+    "$DOTFILES/plymouth/etc"
 
 ########################################
 # Firefox
