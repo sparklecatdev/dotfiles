@@ -170,11 +170,25 @@ install_file \
 # User systemd
 ########################################
 
+########################################
+# User systemd
+########################################
+
 install_dir \
     "$DOTFILES/systemd-user" \
     "$HOME/.config/systemd/user"
 
 systemctl --user daemon-reload || true
+
+if compgen -G "$HOME/.config/systemd/user/*.timer" >/dev/null; then
+    while IFS= read -r timer; do
+        systemctl --user enable --now "$(basename "$timer")"
+    done < <(
+        find "$HOME/.config/systemd/user" \
+            -maxdepth 1 \
+            -name '*.timer'
+    )
+fi
 
 ########################################
 # Root scripts

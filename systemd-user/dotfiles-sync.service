@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync dotfiles to GitHub
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/dotfiles
+ExecStart=/usr/bin/bash %h/dotfiles/sync.sh
