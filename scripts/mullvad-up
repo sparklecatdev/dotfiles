@@ -1,15 +1,24 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-SERVER=$(cat /run/mullvad/server)
+SERVER_FILE="/etc/mullvad-vpnns-server"
+TMP_DIR="/run/wireguard"
+TMP="$TMP_DIR/current-mullvad.conf"
+
+mkdir -p "$TMP_DIR"
+chmod 700 "$TMP_DIR"
+
+SERVER="$(cat "$SERVER_FILE")"
 SRC="/etc/wireguard/${SERVER}.conf"
-TMP="/run/wireguard/current-mullvad.conf"
 
-# remove old tunnel if it exists
+if [[ ! -f "$SRC" ]]; then
+    echo "Missing config: $SRC"
+    exit 1
+fi
+
 wg-quick down "$TMP" 2>/dev/null || true
 
-# create config without DNS
 sed '/^DNS[[:space:]]*=/s/^/#/' "$SRC" > "$TMP"
-
 chmod 600 "$TMP"
 
 wg-quick up "$TMP"
