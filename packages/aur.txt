@@ -1,0 +1,5 @@
+paru
+paru-debug
+sddm-sugar-candy-git
+vesktop
+woeusb-ng
