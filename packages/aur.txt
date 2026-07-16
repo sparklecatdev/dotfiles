@@ -1,5 +1,6 @@
 paru
 paru-debug
 sddm-sugar-candy-git
+shim-signed
 vesktop
 woeusb-ng

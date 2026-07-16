@@ -120,9 +120,13 @@ powerdevil
 print-manager
 qqc2-breeze-style
 radeontop
+refind
 sbctl
+sbsigntools
 sddm-kcm
 sddm-sugar-candy-git
+shim
+shim-signed
 spectacle
 steam
 sudo
