@@ -13,6 +13,7 @@ breeze-plymouth
 btop
 btrfs-progs
 cabextract
+cider
 cpupower
 cronie
 discover
@@ -144,6 +145,7 @@ union
 vesktop
 vulkan-headers
 wacomtablet
+webapp-manager
 wget
 wine
 winetricks

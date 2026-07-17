@@ -10,6 +10,11 @@ application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/cider=cider.desktop
+x-scheme-handler/itms=cider.desktop
+x-scheme-handler/itmss=cider.desktop
+x-scheme-handler/music=cider.desktop
+x-scheme-handler/itunes=cider.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;userapp-Mullvad Browser-ET3ES3.desktop;
