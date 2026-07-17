@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+OUTPUT="DP-3"
+
+STATE="$(
+    kscreen-doctor -o |
+    sed -n "/Output:.*${OUTPUT}/,/Output:/p" |
+    grep -i "HDR:"
+)"
+
+if echo "$STATE" | grep -qiE "enabled|on"; then
+    kscreen-doctor \
+        "output.${OUTPUT}.hdr.disable" \
+        "output.${OUTPUT}.wcg.disable"
+
+    notify-send "HDR" "Disabled"
+else
+    kscreen-doctor \
+        "output.${OUTPUT}.hdr.enable" \
+        "output.${OUTPUT}.wcg.enable"
+
+    notify-send "HDR" "Enabled"
+fi
