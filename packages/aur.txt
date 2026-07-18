@@ -1,6 +1,8 @@
+parsec-bin
 paru
 paru-debug
 sddm-sugar-candy-git
 shim-signed
+sunshine-bin
 vesktop
 woeusb-ng

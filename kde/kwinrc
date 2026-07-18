@@ -55,3 +55,4 @@ VirtualKeyboardMode=1
 
 [Xwayland]
 Scale=1
+XwaylandEisNoPromptApps=steam

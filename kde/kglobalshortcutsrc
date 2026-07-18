@@ -268,6 +268,9 @@ switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
+[services][net.local.toggle-hdr.desktop]
+_launch=Meta+Alt+B
+
 [services][org.kde.konsole.desktop]
 _launch=Meta+T
 
@@ -275,6 +278,4 @@ _launch=Meta+T
 _launch=Search\tMeta+Space
 
 [services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=none
-OpenWithoutScreenshot=none
 _launch=Print\tMeta+%

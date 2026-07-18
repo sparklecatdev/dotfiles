@@ -87,6 +87,7 @@ openssh
 oxygen
 oxygen-cursors
 oxygen-sounds
+parsec-bin
 paru
 paru-debug
 pipewire
@@ -131,9 +132,11 @@ shim-signed
 spectacle
 steam
 sudo
+sunshine-bin
 sysstat
 system-config-printer
 systemsettings
+tailscale
 telegram-desktop
 timeshift
 tor
