@@ -1,3 +1,4 @@
+litehtml0.9
 parsec-bin
 paru
 paru-debug
