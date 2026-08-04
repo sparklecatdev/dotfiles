@@ -54,5 +54,5 @@ InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
 VirtualKeyboardMode=1
 
 [Xwayland]
-Scale=1
+Scale=1.25
 XwaylandEisNoPromptApps=steam
