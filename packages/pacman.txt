@@ -124,6 +124,7 @@ print-manager
 qqc2-breeze-style
 radeontop
 refind
+rustup
 sbctl
 sbsigntools
 sddm-kcm

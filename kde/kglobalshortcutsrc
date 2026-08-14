@@ -278,4 +278,6 @@ _launch=Meta+T
 _launch=Search\tMeta+Space
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=none
+OpenWithoutScreenshot=none
 _launch=Print\tMeta+%
