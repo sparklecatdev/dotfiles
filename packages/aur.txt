@@ -1,7 +1,10 @@
+kasmvncserver-bin
 litehtml0.9
+openssl-1.1
 parsec-bin
 paru
 paru-debug
+perl-hash-merge-simple
 sddm-sugar-candy-git
 shim-signed
 sunshine-bin

@@ -250,6 +250,7 @@ jsoncpp 1.9.6-3
 kaccounts-integration 26.04.3-1
 kactivitymanagerd 6.7.3-1
 karchive 6.28.0-1
+kasmvncserver-bin 1.4.0-2
 kate 26.04.3-1
 kauth 6.28.0-1
 kbd 2.10.0-1
@@ -786,6 +787,7 @@ openjph 0.31.0-1
 openresolv 3.17.4-1
 openssh 10.4p1-3
 openssl 3.6.3-1
+openssl-1.1 1.1.1.w-11
 openxr 1.1.60-1
 opus 1.6.1-1
 orc 0.4.42-1
@@ -812,6 +814,7 @@ pcre 8.45-4
 pcre2 10.47-1
 pcsclite 2.5.1-1
 perl 5.42.2-1
+perl-algorithm-diff 1:1.201-8
 perl-alien-build 2.84-5
 perl-alien-libxml2 0.20-5
 perl-appconfig 1.71-15
@@ -846,7 +849,9 @@ perl-file-listing 6.16-6
 perl-file-sharedir 1.118-8
 perl-file-sharedir-install 0.14-6
 perl-file-slurp 9999.32-5
+perl-file-slurper 0.014-6
 perl-file-which 1.27-8
+perl-hash-merge-simple 0.052-1
 perl-html-parser 3.85-1
 perl-html-tagset 3.24-4
 perl-http-cookiejar 0.014-5
@@ -895,10 +900,20 @@ perl-sub-exporter 0.991-4
 perl-sub-exporter-progressive 0.001013-13
 perl-sub-install 0.929-4
 perl-sub-quote 1:2.006009-2
+perl-sub-uplevel 0.2800-5
+perl-switch 2.17-13
 perl-sys-syscall 0.25-14
 perl-template-toolkit 3.106-1
+perl-test-deep 1.205-1
+perl-test-differences 0.72-3
+perl-test-exception 0.43-13
 perl-test-fatal 0.018-2
+perl-test-most 0.42-1
+perl-test-nowarnings 1.06-4
+perl-test-warn 0.37-2
+perl-text-diff 1.45-3
 perl-timedate 2.35-1
+perl-tree-dag-node 1.39-1
 perl-try-tiny 0.32-4
 perl-uri 5.35-1
 perl-variable-magic 0.64-3
@@ -941,6 +956,7 @@ plasma-vault 6.7.3-1
 plasma-welcome 6.7.3-1
 plasma-workspace 6.7.3-1
 plasma-workspace-wallpapers 6.7.3-1
+plasma-x11-session 6.7.3-1
 plasma5support 6.7.3-1
 plymouth 26.134.222-2
 plymouth-kcm 6.7.3-1
@@ -1317,6 +1333,7 @@ xorg-setxkbmap 1.3.5-1
 xorg-xauth 1.1.5-1
 xorg-xdpyinfo 1.4.0-1
 xorg-xkbcomp 1.5.0-1
+xorg-xkbutils 1.0.7-1
 xorg-xmessage 1.0.7-2
 xorg-xprop 1.2.8-1
 xorg-xrandr 1.5.4-1

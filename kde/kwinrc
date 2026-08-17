@@ -33,6 +33,9 @@ HighlightWindows=false
 LayoutName=big_icons
 OrderMinimizedMode=1
 
+[Tiling][61a9cda2-c784-5476-9585-83eaed337290]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][d77ed674-67a2-4001-b255-48ff24369259][517180c4-2c4c-4f3b-8f73-9d934df75206]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
