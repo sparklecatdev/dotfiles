@@ -15,6 +15,7 @@ x-scheme-handler/itms=cider.desktop
 x-scheme-handler/itmss=cider.desktop
 x-scheme-handler/music=cider.desktop
 x-scheme-handler/itunes=cider.desktop
+x-scheme-handler/bitwarden=bitwarden.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;userapp-Mullvad Browser-ET3ES3.desktop;

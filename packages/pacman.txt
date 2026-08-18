@@ -3,6 +3,7 @@ ark
 aurorae
 base
 base-devel
+bitwarden
 bluedevil
 bluez
 bluez-utils
@@ -41,7 +42,6 @@ kde-gtk-config
 kdecoration
 kdegraphics-thumbnailers
 kdeplasma-addons
-keepassxc
 kgamma
 kglobalacceld
 kinfocenter

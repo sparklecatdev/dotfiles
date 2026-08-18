@@ -40,6 +40,7 @@ base-devel 1-2
 bash 5.3.15-1
 binutils 2.47-1
 bison 3.8.2-8
+bitwarden 2026.3.1-2
 blas 3.12.1-2
 bluedevil 1:6.7.3-1
 bluez 5.87-2
@@ -279,7 +280,6 @@ kdesu 6.28.0-1
 kdnssd 6.28.0-1
 kdsoap 2.3.0-1
 kdsoap-ws-discovery-client 0.4.0-3
-keepassxc 2.7.12-3
 keyutils 1.6.3-4
 kfilemetadata 6.28.0-1
 kgamma 6.7.3-1
@@ -561,6 +561,7 @@ libnl 3.12.0-1
 libnm 1.58.0-1
 libnotify 0.8.8-1
 libnsl 2.0.1-2
+libnss_nis 3.4-1
 libntfs-3g 2026.7.7-1
 libnvme 1.16.2-1
 libobjc 16.1.1+r595+g171d15ac6959-1
