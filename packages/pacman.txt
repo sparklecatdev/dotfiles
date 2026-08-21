@@ -14,6 +14,7 @@ breeze-plymouth
 btop
 btrfs-progs
 cabextract
+chatgpt-desktop
 cider
 corectrl
 cpupower

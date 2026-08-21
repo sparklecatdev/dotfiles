@@ -72,6 +72,7 @@ cblas 3.12.1-2
 cdparanoia 10.2-10
 cdrtools 3.02a09-6
 cfitsio 1:4.6.4-1
+chatgpt-desktop 26.818.22352-1
 cider 4.0.9.1-1
 cifs-utils 7.5-1
 clang 22.1.8-1

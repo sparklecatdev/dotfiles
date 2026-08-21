@@ -1,3 +1,4 @@
+chatgpt-desktop
 kasmvncserver-bin
 litehtml0.9
 openssl-1.1
