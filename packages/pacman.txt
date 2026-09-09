@@ -16,6 +16,7 @@ btrfs-progs
 cabextract
 chatgpt-desktop
 cider
+cmake
 corectrl
 cpupower
 cronie
@@ -23,6 +24,7 @@ discover
 dolphin
 drkonqi
 efibootmgr
+extra-cmake-modules
 fastfetch
 ffmpegthumbs
 firefox
@@ -46,6 +48,7 @@ kdeplasma-addons
 kgamma
 kglobalacceld
 kinfocenter
+kio-admin
 kmenuedit
 knighttime
 kpipewire
@@ -54,6 +57,7 @@ kscreen
 kscreenlocker
 ksshaskpass
 ksystemstats
+kvantum
 kwallet-pam
 kwayland
 kwin
@@ -114,6 +118,7 @@ plasma-sdk
 plasma-systemmonitor
 plasma-thunderbolt
 plasma-vault
+plasma-wayland-protocols
 plasma-welcome
 plasma-workspace
 plasma-workspace-wallpapers
@@ -154,6 +159,7 @@ union
 vesktop
 vulkan-headers
 wacomtablet
+wayland-protocols
 webapp-manager
 wget
 wine
