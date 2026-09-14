@@ -9,5 +9,6 @@ perl-hash-merge-simple
 sddm-sugar-candy-git
 shim-signed
 sunshine-bin
+vbam-git
 vesktop
 woeusb-ng

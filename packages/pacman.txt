@@ -156,6 +156,7 @@ ttf-dejavu
 ttf-liberation
 ufw
 union
+vbam-git
 vesktop
 vulkan-headers
 wacomtablet
