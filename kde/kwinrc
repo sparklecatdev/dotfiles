@@ -20,17 +20,31 @@ Stiffness=38
 TabletMode=off
 
 [Plugins]
+aeroglassblurEnabled=true
+aeroglideEnabled=true
 blurEnabled=false
 desktopchangeosdEnabled=false
-translucencyEnabled=true
+dialogparentEnabled=false
+dimscreenaeroEnabled=true
+fadingpopupsEnabled=false
+libkwin_effect_smodsnapEnabled=true
+loginEnabled=false
+logoutEnabled=false
+maximizeEnabled=false
+scaleEnabled=false
+slideEnabled=false
+slidingnotificationsEnabled=false
+slidingpopupsEnabled=false
+smodglowEnabled=true
+smodpeekeffectEnabled=true
+squashEnabled=false
 virtualdesktopsonlyonprimaryEnabled=true
-wobblywindowsEnabled=true
+windowapertureEnabled=false
 
 [TabBox]
 ActivitiesMode=0
 DesktopMode=0
 HighlightWindows=false
-LayoutName=big_icons
 OrderMinimizedMode=1
 
 [Tiling][61a9cda2-c784-5476-9585-83eaed337290]
@@ -57,5 +71,5 @@ InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
 VirtualKeyboardMode=1
 
 [Xwayland]
-Scale=1.25
+Scale=1
 XwaylandEisNoPromptApps=steam

@@ -27,14 +27,16 @@ efibootmgr
 extra-cmake-modules
 fastfetch
 ffmpegthumbs
-firefox
 flatpak-kcm
 gamemode
 gamescope
 git
 gnome-boxes
 go
+gst-libav
 gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-ugly
 gwenview
 iwd
 kactivitymanagerd
@@ -51,6 +53,7 @@ kinfocenter
 kio-admin
 kmenuedit
 knighttime
+kolourpaint
 kpipewire
 krdp
 kscreen

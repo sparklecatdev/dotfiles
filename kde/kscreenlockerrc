@@ -2,3 +2,7 @@
 Autolock=false
 LockOnResume=false
 Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/ralsei/Pictures/Wallpapers/WQAfGav.png
+PreviewImage=/home/ralsei/Pictures/Wallpapers/WQAfGav.png
