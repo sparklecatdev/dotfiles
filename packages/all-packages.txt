@@ -157,6 +157,7 @@ freetype2 2.14.3-1
 fribidi 1.0.16-2
 fstrm 0.6.1-2
 fuse-common 3.18.2-1
+fuse2 2.9.9-6
 fuse3 3.18.2-1
 gamemode 1.8.2-3
 gamescope 3.16.28-1

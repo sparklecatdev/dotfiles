@@ -28,6 +28,7 @@ extra-cmake-modules
 fastfetch
 ffmpegthumbs
 flatpak-kcm
+fuse2
 gamemode
 gamescope
 git
