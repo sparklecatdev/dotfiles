@@ -15,4 +15,5 @@ shim-signed
 sunshine-bin
 vbam-git
 vesktop
+vrcx-bin
 woeusb-ng

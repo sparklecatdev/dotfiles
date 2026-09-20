@@ -165,6 +165,7 @@ ufw
 union
 vbam-git
 vesktop
+vrcx-bin
 vulkan-headers
 wacomtablet
 wayland-protocols

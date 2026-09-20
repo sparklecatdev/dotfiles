@@ -114,6 +114,8 @@ dmidecode 3.7-1
 dnssec-anchors 20250524-1
 dolphin 26.08.0-5
 dosfstools 4.2-5
+dotnet-host 10.0.12.sdk112-1
+dotnet-runtime-10.0 10.0.12.sdk112-1
 double-conversion 3.4.0-1
 drkonqi 6.7.4-1
 dtc 1:1.8.1-1
@@ -126,6 +128,7 @@ edk2-ovmf 202608-1
 efibootmgr 18-4
 efivar 39-2
 electron39 39.8.10-2
+electron40 40.10.6-1
 electron42 42.9.3-1
 elfutils 0.196-1
 ell 0.83-1
@@ -1248,6 +1251,7 @@ spice-gtk 0.42-5
 spice-protocol 0.14.5-1
 spirv-tools 1:1.4.357.0-1
 sqlite 3.53.4-1
+squashfs-tools 4.7.5-1
 sratom 0.6.22-1
 srt 1.5.7-1
 steam 1.0.0.87-3
@@ -1343,6 +1347,7 @@ vlc-plugin-xml 3.0.23_2-14
 vlc-plugins-base 3.0.23_2-14
 vmaf 3.2.0-1
 volume_key 0.3.12-12
+vrcx-bin 2026.09.16-1
 vte-common 0.84.1-1
 vte3 0.84.1-1
 vulkan-headers 1:1.4.357.0-1
