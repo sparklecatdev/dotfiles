@@ -10,6 +10,7 @@ paru-debug
 perl-hash-merge-simple
 plasma6-wallpapers-smart-video-wallpaper-reborn
 proton-rtsp-bin
+protonhax
 sddm-sugar-candy-git
 shim-signed
 sunshine-bin

@@ -79,6 +79,7 @@ linux-lts
 linux-lts-headers
 linux-zen
 linux-zen-headers
+lutris
 lvm2
 mangohud
 milou
@@ -137,6 +138,7 @@ power-profiles-daemon
 powerdevil
 print-manager
 proton-rtsp-bin
+protonhax
 qqc2-breeze-style
 radeontop
 refind
