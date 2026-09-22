@@ -11,6 +11,7 @@ perl-hash-merge-simple
 plasma6-wallpapers-smart-video-wallpaper-reborn
 proton-rtsp-bin
 protonhax
+rustdesk-unattended-wayland
 sddm-sugar-candy-git
 shim-signed
 sunshine-bin

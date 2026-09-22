@@ -1224,6 +1224,7 @@ rtmpdump 1:2.6-2
 rubberband 4.0.0-2
 run-parts 5.24-1
 rust-bindgen 0.73.1-1
+rustdesk-unattended-wayland 1.5.0-2
 rustup 1.29.1-1
 rutabaga-ffi 0.1.85-1
 sane 1.4.0-4
@@ -1423,6 +1424,7 @@ xdg-desktop-portal-gtk 1.15.3-1
 xdg-desktop-portal-kde 6.7.4-2
 xdg-user-dirs 0.20-1
 xdg-utils 1.2.1-2
+xdotool 4.20260303.1-1
 xf86-input-libinput 1.5.0-1
 xf86-input-wacom 1.2.4-1
 xkeyboard-config 2.48-1

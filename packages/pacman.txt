@@ -142,6 +142,7 @@ protonhax
 qqc2-breeze-style
 radeontop
 refind
+rustdesk-unattended-wayland
 rustup
 sbctl
 sbsigntools
