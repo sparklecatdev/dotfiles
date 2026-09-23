@@ -152,6 +152,7 @@ shim
 shim-signed
 spectacle
 steam
+stress-ng
 sudo
 sunshine-bin
 sysstat
@@ -168,9 +169,11 @@ ufw
 union
 vbam-git
 vesktop
+vkmark
 vrcx-bin
 vulkan-headers
 wacomtablet
+waydroid
 wayland-protocols
 webapp-manager
 wget

@@ -1,4 +1,5 @@
 chatgpt-desktop
+cider
 kasmvncserver-bin
 lib32-libtheora
 lib32-libvdpau
