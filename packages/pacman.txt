@@ -68,6 +68,7 @@ kwin
 kwin-x11
 kwrited
 layer-shell-qt
+libconfig
 libkscreen
 libksysguard
 libplasma
