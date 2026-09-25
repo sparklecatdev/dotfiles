@@ -14,6 +14,7 @@ proton-rtsp-bin
 protonhax
 rustdesk-unattended-wayland
 sddm-sugar-candy-git
+session-desktop-bin
 shim-signed
 sunshine-bin
 vbam-git

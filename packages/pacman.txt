@@ -149,6 +149,7 @@ sbctl
 sbsigntools
 sddm-kcm
 sddm-sugar-candy-git
+session-desktop-bin
 shim
 shim-signed
 spectacle
