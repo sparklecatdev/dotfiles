@@ -67,6 +67,7 @@ ca-certificates-mozilla 3.129-1
 ca-certificates-utils 20240618-1
 cabextract 1.11-3
 cairo 1.18.4-1
+cairomm-1.16 1.18.1-1
 capstone 5.0.9-1
 cbindgen 0.29.4-1
 cblas 3.12.1-2
@@ -172,6 +173,8 @@ gawk 5.4.1-1
 gc 8.2.12-1
 gcc 16.2.1+r23+gd564253eb6c8-1
 gcc-libs 16.2.1+r23+gd564253eb6c8-1
+gcc15 15.3.0+r0.g4db0e8df15be-2
+gcc15-libs 15.3.0+r0.g4db0e8df15be-2
 gd 2.3.3-9
 gdb 17.2-1
 gdb-common 17.2-1
@@ -187,6 +190,7 @@ glfw 1:3.5.1-1
 glib-networking 1:2.80.1-1
 glib2 2.88.3-1
 glibc 2.44+r24+g16be1518495f-1
+glibmm-2.68 2.88.1-1
 glm 1.0.3-1
 glslang 1:1.4.357.0-1
 glu 9.0.3-3
@@ -229,6 +233,7 @@ gtest 1.18.0-1
 gtk-update-icon-cache 1:4.22.5-1
 gtk3 1:3.24.52-1
 gtk4 1:4.22.5-1
+gtkmm-4.0 4.22.0-2
 guile 3.0.11-1
 gumbo-parser 0.13.2-1
 gupnp 1:1.6.10-1
@@ -656,6 +661,7 @@ libsasl 2.1.28-5
 libseccomp 2.6.0-1
 libsecret 0.21.8.2-1
 libshout 1:2.4.6-5
+libsigc++-3.0 3.8.1-1
 libslirp 4.9.5-1
 libsm 1.2.6-1
 libsndfile 1.2.2-4
@@ -789,6 +795,7 @@ lv2 1.18.10-2
 lvm2 2.03.42-1
 lxc 1:7.0.0-2
 lz4 1:1.10.0-2
+lzip 1.26-1
 lzo 2.10-5
 m4 1.4.21-2
 mailcap 2.1.54-3
@@ -878,11 +885,13 @@ pahole 1:1.32-1
 pam 1.7.2-2
 pambase 20260616-1
 pango 1:1.58.2-1
+pangomm-2.48 2.56.2-1
 parsec-bin 150_104a-1
 parted 3.7-1
 paru 2.1.0-2
 paru-debug 2.1.0-2
 patch 2.8-1
+pavucontrol 1:6.2-1
 pciutils 3.15.0-1
 pcre 8.45-5
 pcre2 10.48-1
@@ -1276,6 +1285,7 @@ sndio 1.10.0-1
 socat 1.8.1.3-1
 solid 6.30.0-1
 sonnet 6.30.0-1
+sonobus 1.7.2-1
 sord 0.16.22-1
 sound-theme-freedesktop 0.8-6
 soundtouch 2.4.1-1
@@ -1403,6 +1413,7 @@ wasi-libc++ 22.1.0-1
 wasi-libc++abi 22.1.0-1
 wavpack 5.9.0-1
 waydroid 1.6.3-1
+waydroid-helper-bin 0.2.9-3
 wayland 1.26.0-1
 wayland-protocols 1.49-1
 wayland-utils 1.3.0-1

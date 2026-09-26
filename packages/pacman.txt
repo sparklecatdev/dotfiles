@@ -31,6 +31,7 @@ flatpak-kcm
 fuse2
 gamemode
 gamescope
+gcc15
 git
 gnome-boxes
 go
@@ -82,6 +83,7 @@ linux-zen
 linux-zen-headers
 lutris
 lvm2
+lzip
 mangohud
 milou
 mkinitcpio
@@ -105,6 +107,7 @@ oxygen-sounds
 parsec-bin
 paru
 paru-debug
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -152,6 +155,7 @@ sddm-sugar-candy-git
 session-desktop-bin
 shim
 shim-signed
+sonobus
 spectacle
 steam
 stress-ng
@@ -176,6 +180,7 @@ vrcx-bin
 vulkan-headers
 wacomtablet
 waydroid
+waydroid-helper-bin
 wayland-protocols
 webapp-manager
 wget

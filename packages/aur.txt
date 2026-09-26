@@ -16,8 +16,10 @@ rustdesk-unattended-wayland
 sddm-sugar-candy-git
 session-desktop-bin
 shim-signed
+sonobus
 sunshine-bin
 vbam-git
 vesktop
 vrcx-bin
+waydroid-helper-bin
 woeusb-ng
