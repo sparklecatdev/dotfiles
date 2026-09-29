@@ -48,6 +48,14 @@ HighlightWindows=false
 OrderMinimizedMode=1
 ShowDesktopMode=0
 
+[Tiling][3169c865-db89-494f-9a15-2b4780162c17][517180c4-2c4c-4f3b-8f73-9d934df75206]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3169c865-db89-494f-9a15-2b4780162c17][e5853957-50a6-44c5-b216-ba0f071baffe]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][61a9cda2-c784-5476-9585-83eaed337290]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 

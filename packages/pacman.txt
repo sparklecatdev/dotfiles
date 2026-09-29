@@ -142,6 +142,7 @@ polkit-kde-agent
 power-profiles-daemon
 powerdevil
 print-manager
+prismlauncher
 proton-rtsp-bin
 protonhax
 qqc2-breeze-style

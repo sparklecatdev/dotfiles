@@ -82,6 +82,7 @@ cifs-utils 7.5-1
 clang 22.1.8-1
 clinfo 3.0.25.02.14-1
 cmake 4.4.3-2
+cmark 0.31.2-1
 cmark-gfm 0.29.0.gfm.13-2
 compiler-rt 22.1.8-1
 composefs 1.0.8-1
@@ -1063,6 +1064,7 @@ power-profiles-daemon 0.30-1
 powerdevil 6.7.5-1
 ppp 2.5.3-1
 print-manager 1:6.7.5-1
+prismlauncher 11.0.3-2
 prison 6.30.0-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
@@ -1215,6 +1217,7 @@ qt6-imageformats 6.11.2-1
 qt6-location 6.11.2-1
 qt6-multimedia 6.11.2-1
 qt6-multimedia-ffmpeg 6.11.2-1
+qt6-networkauth 6.11.2-1
 qt6-positioning 6.11.2-1
 qt6-quick3d 6.11.2-1
 qt6-quicktimeline 6.11.2-1
@@ -1337,6 +1340,7 @@ threadweaver 6.30.0-1
 timeshift 25.12.4-1
 tinysparql 3.11.1-1
 tlottie 1.0.6-1
+tomlplusplus 3.4.0-2
 tor 0.4.9.12-1
 torbrowser-launcher 0.3.9-1
 tpm2-tss 4.2.0-2
