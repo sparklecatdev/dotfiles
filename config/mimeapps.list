@@ -8,6 +8,7 @@ application/xhtml+xml=userapp-Mullvad Browser-ET3ES3.desktop;firefox.desktop;use
 text/html=userapp-Mullvad Browser-ET3ES3.desktop;firefox.desktop;userapp-Firefox-BI0VV3.desktop;
 video/webm=org.kde.gwenview.desktop;
 x-scheme-handler/chrome=userapp-Firefox-6I8NV3.desktop;userapp-Firefox-BI0VV3.desktop;firefox.desktop;userapp-Mullvad Browser-ET3ES3.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox-esr140.desktop;userapp-Firefox-6I8NV3.desktop;userapp-Firefox-BI0VV3.desktop;firefox.desktop;userapp-Mullvad Browser-ET3ES3.desktop;
 x-scheme-handler/https=firefox-esr140.desktop;userapp-Firefox-6I8NV3.desktop;userapp-Firefox-BI0VV3.desktop;firefox.desktop;userapp-Mullvad Browser-ET3ES3.desktop;
 
@@ -25,6 +26,7 @@ x-scheme-handler/chrome=userapp-Firefox-6I8NV3.desktop
 x-scheme-handler/cider=cider.desktop
 x-scheme-handler/codex=chatgpt.desktop
 x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox-esr140.desktop;
 x-scheme-handler/https=firefox-esr140.desktop;
 x-scheme-handler/itms=cider.desktop

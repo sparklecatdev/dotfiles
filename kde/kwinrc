@@ -32,6 +32,7 @@ loginEnabled=false
 logoutEnabled=false
 maximizeEnabled=false
 scaleEnabled=false
+shakecursorEnabled=false
 slideEnabled=false
 slidingnotificationsEnabled=false
 slidingpopupsEnabled=false
