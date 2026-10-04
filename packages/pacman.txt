@@ -187,6 +187,7 @@ waydroid-helper-bin
 wayland-protocols
 webapp-manager
 wget
+whatsapp-linux-desktop
 wine
 winetricks
 wireguard-tools

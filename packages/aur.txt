@@ -22,4 +22,5 @@ vbam-git
 vesktop
 vrcx-bin
 waydroid-helper-bin
+whatsapp-linux-desktop
 woeusb-ng

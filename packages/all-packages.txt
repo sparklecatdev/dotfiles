@@ -135,9 +135,11 @@ editorconfig-core-c 0.12.11-1
 edk2-ovmf 202608-1
 efibootmgr 18-4
 efivar 39-2
+electron 1:44-1
 electron39 39.8.10-2
 electron40 40.10.6-1
 electron42 42.11.10-1
+electron44 44.5.1-1
 elfutils 0.196-1
 ell 0.83-1
 enchant 2.8.21-1
@@ -476,6 +478,7 @@ libadwaita 1:1.9.4-1
 libaec 1.1.7-1
 libaemu 0.1.2-5
 libaio 0.3.113-5
+libappindicator 12.10.1-2
 libarchive 3.8.9-1
 libasan 16.2.1+r23+gd564253eb6c8-1
 libass 0.17.5-1
@@ -1430,6 +1433,7 @@ webapp-manager 1.4.6-2
 webkit2gtk-4.1 2.52.6-1
 webrtc-audio-processing-1 1.3-5
 wget 1.25.0-6
+whatsapp-linux-desktop 1.0.1-1
 which 2.25-1
 wildmidi 0.5.0-1
 wine 11.18-1
