@@ -1316,6 +1316,7 @@ sratom 0.6.22-1
 srt 1.5.7-1
 steam 1.0.0.87-3
 steam-devices 1.0.0.87-3
+stoat-desktop-bin 1.5.4-1
 stress-ng 0.22.01-1
 sudo 1.9.17.p2-6
 sunshine-bin 2026.516.143833-1

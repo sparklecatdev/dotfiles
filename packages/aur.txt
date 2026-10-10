@@ -17,6 +17,7 @@ sddm-sugar-candy-git
 session-desktop-bin
 shim-signed
 sonobus
+stoat-desktop-bin
 sunshine-bin
 vbam-git
 vesktop
