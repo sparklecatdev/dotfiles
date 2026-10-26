@@ -1,6 +1,8 @@
 chatgpt-desktop
 cider
 kasmvncserver-bin
+kgamma
+kwin-x11
 lib32-libtheora
 lib32-libvdpau
 litehtml0.9
@@ -22,6 +24,7 @@ sunshine-bin
 vbam-git
 vesktop
 vrcx-bin
+wacomtablet
 waydroid-helper-bin
 whatsapp-linux-desktop
 woeusb-ng
