@@ -42,6 +42,7 @@ gst-plugins-bad
 gst-plugins-ugly
 gwenview
 iwd
+jre8-openjdk
 kactivitymanagerd
 kasmvncserver-bin
 kate

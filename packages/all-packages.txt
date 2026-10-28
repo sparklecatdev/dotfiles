@@ -284,6 +284,8 @@ jbig2dec 0.20-2
 jbigkit 2.2-1
 jdk-openjdk 27.0.1.0.3.u1-1
 jq 1.8.2-1
+jre8-openjdk 8.504.u01-1
+jre8-openjdk-headless 8.504.u01-1
 json-c 0.19-1
 json-glib 1.10.8-1
 jsoncpp 1.9.8-1
