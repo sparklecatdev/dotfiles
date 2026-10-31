@@ -67,6 +67,7 @@ ca-certificates 20240618-1
 ca-certificates-mozilla 3.132-1
 ca-certificates-utils 20240618-1
 cabextract 1.11-3
+caddy 2.11.7-1
 cairo 1.18.6-1
 cairomm-1.16 1.18.1-1
 capstone 5.0.9-1
@@ -875,6 +876,8 @@ nvtop 3.3.2-1
 ocean-sound-theme 6.8.1-1
 ocl-icd 2.3.5-1
 okular 26.08.2-1
+ollama 0.40.11-1
+ollama-vulkan 0.40.11-1
 onetbb 2023.1.0-1
 oniguruma 6.9.10-3
 openal 1.25.2-2

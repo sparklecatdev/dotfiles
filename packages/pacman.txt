@@ -14,6 +14,7 @@ breeze-plymouth
 btop
 btrfs-progs
 cabextract
+caddy
 chatgpt-desktop
 cider
 cmake
@@ -100,6 +101,8 @@ noto-fonts-emoji
 nvtop
 ocean-sound-theme
 okular
+ollama
+ollama-vulkan
 openresolv
 openssh
 openssl-1.1
