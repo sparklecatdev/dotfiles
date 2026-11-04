@@ -103,6 +103,7 @@ ocean-sound-theme
 okular
 ollama
 ollama-vulkan
+omniclicker
 openresolv
 openssh
 openssl-1.1
@@ -198,5 +199,6 @@ wireguard-tools
 wireplumber
 woeusb-ng
 xdg-desktop-portal-kde
+ydotool
 yt-dlp
 zram-generator
