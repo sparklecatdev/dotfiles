@@ -9,6 +9,13 @@ adwaita-cursors 51.0-1
 adwaita-fonts 51.0-2
 adwaita-icon-theme 51.0-1
 adwaita-icon-theme-legacy 46.2-3
+aeroshell-kwin-components-git 6.8.0_76.r4a28963-1
+aeroshell-libplasma-git 6.8.2_18256.rc962fb360-1
+aeroshell-smod-git 6.8.0_77.r67e24c0-1
+aeroshell-workspace-git 6.8.0_28.rabb45d8-1
+aerothemeplasma-desktop-git 6.8.0_778.r547dcd3-1
+aerothemeplasma-icons-git 13.r0100536-1
+aerothemeplasma-sounds-git 4.r55d2f5f-1
 aha 0.5.1-3
 alsa-card-profiles 1:1.6.10-1
 alsa-lib 1.2.16.1-1
@@ -123,6 +130,8 @@ djvulibre 3.5.30.1-1
 dmidecode 3.7-1
 dnsmasq 2.93-1
 dnssec-anchors 20250524-1
+docbook-xml 4.5-11
+docbook-xsl 1.79.2-9
 dolphin 26.08.2-1
 dosfstools 4.2-5
 dotnet-host 10.0.14.sdk114-1
@@ -243,9 +252,11 @@ gst-plugins-ugly 1.28.8-1
 gstreamer 1.28.8-1
 gtest 1.18.0-1
 gtk-update-icon-cache 1:4.24.1-1
+gtk-vnc 1.5.0-1
 gtk3 1:3.24.52-2
 gtk4 1:4.24.1-1
 gtkmm-4.0 4.24.0-1
+gtksourceview4 4.8.4-2
 guile 3.0.11-1
 gumbo-parser 0.14.1-1
 gupnp 1:1.6.10-1
@@ -324,6 +335,7 @@ kdegraphics-thumbnailers 26.08.2-1
 kdeplasma-addons 6.8.2-1
 kdesu 6.31.0-1
 kdnssd 6.31.0-1
+kdoctools 6.31.0-1
 kdsoap 2.3.0-1
 kdsoap-ws-discovery-client 0.4.0-3
 keyutils 1.6.3-4
@@ -515,6 +527,7 @@ libbluray 1.5.1-1
 libbpf 1.7.0-1
 libbs2b 3.1.0-11
 libbsd 0.12.2-2
+libburn 1.5.8-1
 libbytesize 2.12-3
 libcaca 0.99.beta20-7
 libcacard 2.8.1-1
@@ -593,6 +606,8 @@ libimobiledevice-glue 1.3.2-1
 libinih 62-2
 libinput 1.32.0-1
 libisl 0.28-1
+libisoburn 1.5.8.2-1
+libisofs 1.5.8.2-2
 libjpeg-turbo 3.2.1-1
 libjxl 0.12.0-1
 libkdcraw 26.08.2-1
@@ -659,7 +674,6 @@ libpciaccess 0.19-1
 libpgm 5.3.128-4
 libpipewire 1:1.6.10-1
 libplacebo 7.360.1-7
-libplasma 6.8.2-1
 libplist 2.7.0-3
 libpng 1.6.59-1
 libportal 0.11.0-1
@@ -706,6 +720,7 @@ libtiff 4.7.2-2
 libtirpc 1.3.8-1
 libtommath 1.3.0-2
 libtool 2.6.2-5
+libtpms 0.10.2-1
 libtraceevent 1:1.9.1-1
 libtracefs 1.8.4-1
 libtsan 16.2.1+r23+gd564253eb6c8-1
@@ -726,6 +741,7 @@ libverto 0.3.2-6
 libvips 8.18.7-1
 libvirt 1:12.9.0-1
 libvirt-glib 5.0.0-3
+libvirt-python 1:12.9.0-1
 libvlc 3.0.24-1
 libvorbis 1.3.7-4
 libvpl 2.17.0-1
@@ -1102,6 +1118,7 @@ purpose 6.31.0-1
 pyside6 6.12.0-3
 python 3.14.9-1
 python-accessible-pygments 0.0.5-3
+python-argcomplete 3.7.2-1
 python-attrs 26.1.0-1
 python-autocommand 2.2.2-9
 python-babel 2.18.0-1
@@ -1112,6 +1129,7 @@ python-cairo 1.29.2-1
 python-certifi 2026.10.23-1
 python-cffi 2.1.1-1
 python-charset-normalizer 3.5.1-1
+python-click 8.5.0-1
 python-contourpy 1.4.0-1
 python-cryptography 50.0.2-1
 python-curl-adapter 1.2.3-1
@@ -1157,6 +1175,7 @@ python-numpy 2.5.4-1
 python-packaging 26.3-1
 python-pillow 13.0.0-1
 python-pip 26.2.2-1
+python-pipx 1.18.4-2
 python-platformdirs 4.14.3-1
 python-pluggy 1.7.0-1
 python-psutil 7.2.2-1
@@ -1197,6 +1216,7 @@ python-tldextract 5.4.0-1
 python-tqdm 4.70.1-1
 python-typing_extensions 4.16.0-1
 python-urllib3 2.8.0-1
+python-userpath 1.9.2-4
 python-wheel 0.48.0-1
 python-wxpython 1:4.2.5-1
 python-yaml 6.0.3-2
@@ -1370,6 +1390,7 @@ stress-ng 0.22.02-1
 sudo 1.9.17.p2-6
 sunshine-bin 2026.914.233613-1
 svt-av1 4.2.0-1
+swtpm 0.10.2-1
 syndication 6.31.0-1
 syntax-highlighting 6.31.0-1
 sysstat 12.8.0-1
@@ -1382,6 +1403,7 @@ taglib 2.3.2-1
 tailscale 1.104.4-1
 talloc 2.5.0-2
 tar 1.35-5
+tcl 8.6.16-1
 tdb 1.4.15-2
 telegram-desktop 7.3.5-1
 tesseract 5.5.4-1
@@ -1393,6 +1415,7 @@ thin-provisioning-tools 1.3.4-1
 threadweaver 6.31.0-1
 timeshift 26.09.0-1
 tinysparql 3.12.0-1
+tk 8.6.16-1
 tlottie 1.0.6-1
 tomlplusplus 3.4.0-2
 tor 0.4.9.14-1
@@ -1431,6 +1454,8 @@ verdict 1.4.5-3
 vesktop 1.6.8-1
 vid.stab 1.1.2-1
 virglrenderer 1.3.0-2
+virt-install 5.1.0-4
+virt-manager 5.1.0-4
 virtiofsd 1.14.0-1
 vkmark 1:2025.01-2
 vlc-plugin-a52dec 3.0.24-1

@@ -1,3 +1,10 @@
+aeroshell-kwin-components-git
+aeroshell-libplasma-git
+aeroshell-smod-git
+aeroshell-workspace-git
+aerothemeplasma-desktop-git
+aerothemeplasma-icons-git
+aerothemeplasma-sounds-git
 chatgpt-desktop
 cider
 kasmvncserver-bin
