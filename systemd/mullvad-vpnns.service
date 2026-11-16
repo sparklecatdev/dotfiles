@@ -1,0 +1,17 @@
+# /etc/systemd/system/mullvad-vpnns.service
+[Unit]
+Description=Mullvad WireGuard in vpn namespace
+After=network-online.target mullvad-vpnns-setup.service
+Requires=mullvad-vpnns-setup.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+
+ExecStart=/usr/bin/ip netns exec vpn /usr/local/bin/mullvad-up
+ExecStop=/usr/bin/ip netns exec vpn wg-quick down current-mullvad.conf
+
+[Install]
+WantedBy=multi-user.target
+

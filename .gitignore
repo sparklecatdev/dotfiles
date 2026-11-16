@@ -1,0 +1,63 @@
+# =========================
+# Secrets
+# =========================
+
+# WireGuard
+wireguard/
+**/wireguard/
+*.key
+*.pem
+
+# SSH
+id_*
+known_hosts
+authorized_keys
+
+# GPG
+.gnupg/
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# Browser profiles
+# =========================
+
+.mozilla/
+.config/chromium/
+.config/BraveSoftware/
+.config/google-chrome/
+
+# =========================
+# Caches & runtime
+# =========================
+
+.cache/
+.local/share/Trash/
+run/
+tmp/
+
+# =========================
+# Dependencies
+# =========================
+
+node_modules/
+__pycache__/
+*.pyc
+
+# =========================
+# Editors
+# =========================
+
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log

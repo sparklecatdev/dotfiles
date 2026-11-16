@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [[ $# -ne 1 ]]; then
+    echo "Usage: vpn-server <server>"
+    exit 1
+fi
+
+echo "$1" | sudo tee /etc/mullvad-vpnns-server >/dev/null
+sudo chmod 600 /etc/mullvad-vpnns-server
+
+sudo systemctl restart mullvad-vpnns.service
+
+echo "Switched to $1"
